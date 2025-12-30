@@ -22,6 +22,8 @@ public class LandaingPage
    {
 	   //testContextSetup.driver.findElement(By.xpath("//input[@type='search']")).sendKeys(shortName);
 	    driver.findElement(search).sendKeys(name);
+	    
+	    System.out.println("serach items");
 	  
    }
     public void getSearchText()
